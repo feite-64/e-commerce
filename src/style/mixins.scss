@@ -1,0 +1,20 @@
+@mixin ellipsis {
+  overflow: hidden;
+  //文本不换行
+  white-space: nowrap;
+  // 多出省略
+  text-overflow: ellipsis;
+}
+
+@mixin inputCss {
+  width: 295rem;
+  height: 48rem;
+  background: #f9f9f9;
+  border: 1rem solid rgba(0, 0, 0, 0.1);
+  border-radius: 6rem;
+  font-family: PingFangSC-Regular;
+  font-size: 16rem;
+  color: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  padding-left: 16rem;
+}

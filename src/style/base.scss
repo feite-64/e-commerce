@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'iconfont';  /* Project id 3280145 */
+  src: url('//at.alicdn.com/t/font_3280145_kaw64k1b298.woff2?t=1650093183573') format('woff2'),
+       url('//at.alicdn.com/t/font_3280145_kaw64k1b298.woff?t=1650093183573') format('woff'),
+       url('//at.alicdn.com/t/font_3280145_kaw64k1b298.ttf?t=1650093183573') format('truetype');
+}
+html {
+  // 设置根字体大小 
+  // font-size: 0.2667vw;
+  font-size: 0.2667vw;
+}
+
+body {
+  font-size: 12rem;
+  // 使用字体图标
+  font-family: iconfont;
+}
+
+a {
+  // 去除下划线
+  text-decoration: none;
+  //点击背景色，从蓝色，设置成透明
+  -webkit-tap-highlight-color: transparent;
+}
+
+input,
+button {
+  border: none;
+  // 去轮廓
+  outline: none;
+}
+
+// src\App.vue
+.docker {
+
+  // ...
+  &__item {
+
+    // ...
+    color: #333333;
+
+    &_active {
+      color: #1fa4fc;
+    }
+
+  }
+
+}
